@@ -1,16 +1,9 @@
 {
   "user": {
-    "user-id": 1001,
+    "user-id": 1002,
     "group-id": 121
   },
   "install": [
-    {
-      "category": "aws",
-      "source": "script",
-      "packages": [
-        "aws-cli"
-      ]
-    },
     {
       "category": "development",
       "source": "apt",
@@ -83,23 +76,6 @@
       "source": "apt",
       "packages": [
         "nodejs"
-      ]
-    },
-    {
-      "category": "powershell",
-      "source": "script",
-      "packages": [
-        "powershell"
-      ]
-    },
-    {
-      "category": "python",
-      "source": "apt",
-      "packages": [
-        "python3",
-        "python3-pip",
-        "python3-setuptools",
-        "python3-venv"
       ]
     },
     {
